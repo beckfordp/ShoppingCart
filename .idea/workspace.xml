@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="Step 2 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hmrc/ShoppingCart.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hmrc/ShoppingCart.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/hmrc/ShoppingCartSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/hmrc/ShoppingCartSpec.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -274,7 +275,7 @@
       <updated>1603357800680</updated>
       <workItem from="1603357805104" duration="1814000" />
       <workItem from="1603359636045" duration="312000" />
-      <workItem from="1603360764187" duration="5361000" />
+      <workItem from="1603360764187" duration="11940000" />
     </task>
     <task id="LOCAL-00001" summary="Step 1 complete">
       <created>1603365685646</created>
