@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1jE8HBI9f3ABqa05ucCECSMBy7B" />
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="/Applications/VisualVM.app/Contents/MacOS/visualvm" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="shoppingcart" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="classBuf">
+        <list>
+          <option value="CubeCalculatorTest" />
+        </list>
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testPackagePath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="shoppingcart" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/beckfordp/dev/scala/ShoppingCart/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="shoppingcart-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter01/initial-example-app" value="10658219194000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter08/bookstore-app-complete" value="10658219194000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter09/bookstore-app-complete/credit-processing" value="1522602742000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-http-microservice" value="1522920267000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-http-quickstart-scala" value="1522578462000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-in-action" value="24382121280000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/clearscore-akka-http" value="1522594900000" />
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/swagger-akka-http-sample" value="1522593472000" />
+        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator" value="6008454592000" />
+        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator-loader/service-locator-update" value="1502374634000" />
+        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-storelocator-update/StoreslocatorUpdate" value="1502375253000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="197943039" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="196385411" />
+        <entry key="$PROJECT_DIR$/../Structures" value="1564435294000" />
+        <entry key="$PROJECT_DIR$/../course/CourseraCodeSamplesReactiveProgramming" value="1431419379000" />
+        <entry key="$PROJECT_DIR$/../course/actorbintree" value="1431268276000" />
+        <entry key="$PROJECT_DIR$/../course/calculator" value="1429536320000" />
+        <entry key="$PROJECT_DIR$/../course/kvstore" value="1431906906000" />
+        <entry key="$PROJECT_DIR$/../course/kvstore-boocock" value="1431906906000" />
+        <entry key="$PROJECT_DIR$/../course/linkchecker" value="1432317320000" />
+        <entry key="$PROJECT_DIR$/../course/nodescala2" value="1430135180000" />
+        <entry key="$PROJECT_DIR$/../course/suggestions" value="1430777854000" />
+        <entry key="$PROJECT_DIR$/../design/calculator" value="1465310946000" />
+        <entry key="$PROJECT_DIR$/../design/example" value="1457116670000" />
+        <entry key="$PROJECT_DIR$/../design/quickcheck" value="1464288170000" />
+        <entry key="$PROJECT_DIR$/../design/streams" value="1481019742000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/clearscore-akka-http" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hmrc/http-verbs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../FizzBuzzScala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../cats-effects-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../clearscore-http4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../http4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../http4sWS" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../my-http4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mycats" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../proper-underscore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../purehut" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../quickstart" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../rho" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../scala-pet-store" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../todo-http4s-doobie" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../zio/zio-workshop" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="" />
+      <created>1603357800680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603357800680</updated>
+      <workItem from="1603357805104" duration="941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
