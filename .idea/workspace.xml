@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="" />
+    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="Step 1 complete">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hmrc/Item.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/hmrc/ShoppingCart.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/hmrc/ShoppingCartSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/CubeCalculator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/CubeCalculatorTest.scala" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +37,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,8 +59,10 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala" />
     <property name="last_opened_file_path" value="/Applications/VisualVM.app/Contents/MacOS/visualvm" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="options.searchVisible" value="true" />
@@ -55,6 +74,15 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hmrc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/scala" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.ShoppingCartSpec">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -99,11 +127,6 @@
       <module name="shoppingcart" />
       <option name="allowRunningInParallel" value="false" />
       <option name="testKind" value="Class" />
-      <option name="classBuf">
-        <list>
-          <option value="CubeCalculatorTest" />
-        </list>
-      </option>
       <option name="envs">
         <map />
       </option>
@@ -112,7 +135,27 @@
       <option name="searchTest" value="Across module dependencies" />
       <option name="showProgressMessages" value="true" />
       <option name="testArgs" value="" />
-      <option name="testPackagePath" value="" />
+      <option name="testClassPath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="shoppingcart" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="com.hmrc.ShoppingCartSpec" />
       <option name="useSbt" value="false" />
       <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -143,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.ShoppingCartSpec" />
         <item itemvalue="ScalaTest.ScalaTests in 'scala'" />
       </list>
     </recent_temporary>
@@ -185,6 +229,7 @@
         <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator" value="6008454592000" />
         <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator-loader/service-locator-update" value="1502374634000" />
         <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-storelocator-update/StoreslocatorUpdate" value="1502375253000" />
+        <entry key="$PROJECT_DIR$" value="3206715842474" />
         <entry key="$PROJECT_DIR$/build.sbt" value="197943039" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="196385411" />
         <entry key="$PROJECT_DIR$/../Structures" value="1564435294000" />
@@ -233,7 +278,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603357800680</updated>
-      <workItem from="1603357805104" duration="941000" />
+      <workItem from="1603357805104" duration="1814000" />
+      <workItem from="1603359636045" duration="312000" />
+      <workItem from="1603360764187" duration="4809000" />
     </task>
     <servers />
   </component>
@@ -243,12 +290,48 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Step 1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 1 complete" />
   </component>
 </project>
