@@ -33,6 +33,11 @@ class ShoppingCartSpec extends AnyFlatSpec with Matchers {
     cart.total should be (75)
   }
 
+  it should "calculate the correct price for 5 Oranges" in {
+    val cart = ShoppingCart.fromItemNames(List("Orange", "Orange", "Orange", "Orange", "Orange", "Orange"))
+    cart.total should be (100)
+  }
+
   it should "calculate the correct price for 3 Apples" in {
     val cart = ShoppingCart.fromItemNames(List("Apple", "Apple", "Apple"))
     cart.total should be (120)
@@ -42,4 +47,6 @@ class ShoppingCartSpec extends AnyFlatSpec with Matchers {
     val cart = ShoppingCart.fromItemNames(List("Apple", "Orange", "Orange", "Apple", "Orange", "Apple", "Orange"))
     cart.total should be (195)
   }
+
+
 }

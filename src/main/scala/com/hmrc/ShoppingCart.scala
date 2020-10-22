@@ -5,16 +5,8 @@ import com.hmrc.Item.{Apple, Orange}
 case class ShoppingCart(items: List[Item] = Nil) {
   def total: Int = {
 
-    val apples = items.filter(_ == Apple).sliding(2,2).flatMap  {
-      case List(Apple, Apple) => List(Apple)
-      case apples => apples
-    }
-
-    val oranges = items.filter(_ == Orange).sliding(2,3).flatMap {
-      case List(Orange, Orange, Orange) => List(Orange, Orange)
-      case oranges => oranges
-    }
-
+    val apples = items.filter(_ == Apple).sliding(1,2).flatten
+    val oranges = items.filter(_ == Orange).sliding(2,3).flatten
     (apples ++ oranges).map(_.price).sum
   }
 
