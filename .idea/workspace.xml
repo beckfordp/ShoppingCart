@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="">
+    <list default="true" id="fb5432dc-eb42-4712-99ce-06d63a7453d5" name="Default Changelist" comment="Refactored, plus more tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/hmrc/ShoppingCart.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/hmrc/ShoppingCart.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/hmrc/ShoppingCartSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/hmrc/ShoppingCartSpec.scala" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -25,7 +28,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="shoppingcart" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -44,9 +52,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1jE8HBI9f3ABqa05ucCECSMBy7B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -58,7 +72,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala" />
-    <property name="last_opened_file_path" value="/Applications/VisualVM.app/Contents/MacOS/visualvm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -66,7 +87,6 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -79,28 +99,16 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="ScalaTest.ShoppingCartSpec">
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -121,18 +129,11 @@
     <configuration name="ScalaTests in 'scala'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="shoppingcart" />
       <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
       </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
-      <option name="testClassPath" value="" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
+      <option name="testKind" value="Class" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,18 +142,12 @@
     <configuration name="ShoppingCartSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="shoppingcart" />
       <option name="allowRunningInParallel" value="false" />
-      <option name="testKind" value="Class" />
-      <option name="envs">
-        <map />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
       </option>
-      <option name="javaOptions" value="" />
-      <option name="jrePath" />
-      <option name="searchTest" value="Across module dependencies" />
-      <option name="showProgressMessages" value="true" />
-      <option name="testArgs" value="" />
+      <option name="testKind" value="Class" />
       <option name="testClassPath" value="com.hmrc.ShoppingCartSpec" />
-      <option name="useSbt" value="false" />
-      <option name="useUiWithSbt" value="false" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,83 +181,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="shoppingcart" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="root [file:/Users/beckfordp/dev/scala/ShoppingCart/]" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="shoppingcart-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter01/initial-example-app" value="10658219194000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter08/bookstore-app-complete" value="10658219194000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/Mastering-Akka/chapter09/bookstore-app-complete/credit-processing" value="1522602742000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-http-microservice" value="1522920267000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-http-quickstart-scala" value="1522578462000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/akka-in-action" value="24382121280000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/clearscore-akka-http" value="1522594900000" />
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/swagger-akka-http-sample" value="1522593472000" />
-        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator" value="6008454592000" />
-        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-SERVICES-store-locator-loader/service-locator-update" value="1502374634000" />
-        <entry key="$PROJECT_DIR$/../../java/dunelm/DEV-storelocator-update/StoreslocatorUpdate" value="1502375253000" />
-        <entry key="$PROJECT_DIR$" value="3206715842474" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="197943039" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="196385411" />
-        <entry key="$PROJECT_DIR$/../Structures" value="1564435294000" />
-        <entry key="$PROJECT_DIR$/../course/CourseraCodeSamplesReactiveProgramming" value="1431419379000" />
-        <entry key="$PROJECT_DIR$/../course/actorbintree" value="1431268276000" />
-        <entry key="$PROJECT_DIR$/../course/calculator" value="1429536320000" />
-        <entry key="$PROJECT_DIR$/../course/kvstore" value="1431906906000" />
-        <entry key="$PROJECT_DIR$/../course/kvstore-boocock" value="1431906906000" />
-        <entry key="$PROJECT_DIR$/../course/linkchecker" value="1432317320000" />
-        <entry key="$PROJECT_DIR$/../course/nodescala2" value="1430135180000" />
-        <entry key="$PROJECT_DIR$/../course/suggestions" value="1430777854000" />
-        <entry key="$PROJECT_DIR$/../design/calculator" value="1465310946000" />
-        <entry key="$PROJECT_DIR$/../design/example" value="1457116670000" />
-        <entry key="$PROJECT_DIR$/../design/quickcheck" value="1464288170000" />
-        <entry key="$PROJECT_DIR$/../design/streams" value="1481019742000" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../ClearScoreTechTest/clearscore-akka-http" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../hmrc/http-verbs" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../FizzBuzzScala" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../cats-effects-tutorial" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../clearscore-http4s" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../http4s" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../http4sWS" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../my-http4s" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../mycats" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../proper-underscore" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../purehut" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../quickstart" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../rho" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../scala-pet-store" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../todo-http4s-doobie" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../zio/zio-workshop" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -275,7 +194,10 @@
       <updated>1603357800680</updated>
       <workItem from="1603357805104" duration="1814000" />
       <workItem from="1603359636045" duration="312000" />
-      <workItem from="1603360764187" duration="16202000" />
+      <workItem from="1603360764187" duration="30732000" />
+      <workItem from="1627244533671" duration="4108000" />
+      <workItem from="1629124870833" duration="1496000" />
+      <workItem from="1662406957456" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="Step 1 complete">
       <created>1603365685646</created>
@@ -291,11 +213,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603373348285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored, plus more tests">
+      <created>1603379324828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603379324828</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -327,22 +256,17 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Step 1 complete" />
     <MESSAGE value="Step 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 2 complete" />
+    <MESSAGE value="Refactored, plus more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored, plus more tests" />
   </component>
 </project>
